@@ -1,0 +1,103 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		}, {
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/info/info",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/case/case",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/goods_detail/goods_detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/goods_list/goods_list",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"onReachBottomDistance": 150,
+				"enablePullDownRefresh": true,
+				"backgroundColor": "#F8F8F8"
+
+			}
+
+		}
+	    ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		// 背景文字颜色
+		// "navigationBarTextStyle": "while",
+		// "navigationBarTitleText": "主页",
+		"navigationBarBackgroundColor": "#d60000",
+		"backgroundColor": "#F8F8F8"
+		// "app-plus": {
+		// 	"background": "#efeff4"
+		// }
+	},
+	"tabBar": {
+		"selectedColor": "#d60000",
+		"list": [{
+			// 路径
+			"pagePath": "pages/index/index",
+			// 文本
+			"text": "首页",
+			// icon路径
+			"iconPath": "./static/home.png",
+			// 点击选项  时的路径
+			"selectedIconPath": "./static/home-fill.png"
+
+		}, {
+			"pagePath": "pages/list/list",
+			"text": "分类",
+			"iconPath": "./static/classification.png",
+			"selectedIconPath": "./static/classification-fill.png"
+
+		}, {
+			"pagePath": "pages/case/case",
+			"text": "购物车",
+			"iconPath": "./static/shop.png",
+			"selectedIconPath": "./static/shop-fill.png"
+
+		}, {
+			"pagePath": "pages/info/info",
+			"text": "个人中心",
+			"iconPath": "./static/user.png",
+			"selectedIconPath": "./static/user-fill.png"
+		}]
+
+	}
+}

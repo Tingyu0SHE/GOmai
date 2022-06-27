@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1",
+    "uview-ui": "^2.0.31"
+  },
+  "devDependencies": {
+    "sass": "^1.52.3"
+  }
+}
